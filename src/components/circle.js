@@ -1,4 +1,4 @@
-import Shape from "./shape";
+import Shape from "./Shape";
 import React from 'react'
 
 class Circle extends Shape {

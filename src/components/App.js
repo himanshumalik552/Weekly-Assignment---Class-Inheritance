@@ -1,8 +1,8 @@
 import React, { Component } from "react";
+import '../styles/App.css'
+import Shape from "../components/Shape";
 
-import Shape from "../components/shape";
-
-import Circle from "../components/circle";
+import Circle from "../components/Circle";
 
 class App extends React.Component {
   constructor(props) {

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 class Shape extends React.Component {
   constructor(props) {
     super(props);
@@ -17,8 +16,9 @@ class Shape extends React.Component {
 
   render() {
     return (
-      <div>
-        Area:{this.calculateArea()} shape:{this.drawShape()}
+      <div className="playground">
+        Area:{this.calculateArea()}
+        shape:{this.drawShape()}
       </div>
     );
   }
